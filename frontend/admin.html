@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Admin - Biblioteca</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>⚙️ Painel do Admin</h1>
+    <button onclick="logout()">Sair</button>
+    <h2>Adicionar Livro</h2>
+    <input type="text" id="adm-titulo" placeholder="Título" />
+    <input type="text" id="adm-autor" placeholder="Autor" />
+    <input type="number" id="adm-ano" placeholder="Ano" />
+    <button onclick="cadastrarLivro()">Cadastrar Livro</button>
+    <h2>Catálogo</h2>
+    <ul id="catalogo-lista"></ul>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
