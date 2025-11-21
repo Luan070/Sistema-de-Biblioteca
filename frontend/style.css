@@ -35,3 +35,7 @@ button:hover { background: #461ff5; }
 .hidden { display: none; }
 ul { list-style: none; padding: 0; }
 li { margin: 8px 0; padding: 8px; background: #f9f9f9; border-radius: 6px; }
+
+ul li {
+  color: black;
+}
